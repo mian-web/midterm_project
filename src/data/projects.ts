@@ -1,0 +1,51 @@
+export const projects = [
+  {
+    slug: "portfolio-website",
+    title: "Portfolio Website",
+    description: "A personal portfolio built using Next.js.",
+    image: "/project1.png",
+    link: "http://localhost:3000/",
+  },
+  {
+    slug: "Capstone Prototype",
+    title: "Capstone Prototype",
+    description: "Partial figma prototype for our capstone project",
+    image: "/project2.png",
+    link: "https://www.figma.com/proto/tD7GccGeAHg726CvtjAoBh/Untitled?node-id=1-2&t=sjuBYkf7ySWy8oPH-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+  },
+  {
+    slug: "Library Management System",
+    title: "Library Management System",
+    description: "Prototype for our final HCI project",
+    image: "/project3.png",
+    link: "https://www.figma.com/proto/0u1L8V5UaR9GgFl2e2DkeN/Untitled?node-id=1-3&starting-point-node-id=1%3A3",
+  },
+  {
+    slug: "Member Management",
+    title: "Member Management",
+    description: "CRUD system using MySQL.",
+    image: "/project4.png",
+    link: "http://localhost/crud_final/form.php",
+  },
+  {
+    slug: "student-manager",
+    title: "Student Manager",
+    description: "C# OOP application.",
+    image: "/project5.png",
+    link: "https://github.com/mian-web/New-folder",
+  },
+  {
+    slug: "final",
+    title: "final",
+    description: "My very first ever personal website",
+    image: "/project6.png",
+    link: "https://github.com/mian-web/will",
+  },
+  {
+    slug: "Personal",
+    title: "Personal",
+    description: "vite+react activity",
+    image: "/project7.png",
+    link: "https://github.com/mian-web/Finals",
+  },
+]

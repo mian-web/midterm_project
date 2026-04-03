@@ -128,3 +128,10 @@
     @apply font-sans;
   }
 }
+
+.container-custom {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
