@@ -6,10 +6,8 @@ export default function AboutHero() {
       
       <div className="grid grid-cols-2 gap-10">
         
-        {/* LEFT SIDE */}
         <div className="space-y-4">
           
-          {/* IMAGE */}
           <Image
             src="/image.jpg"
             alt="about image"
@@ -18,7 +16,6 @@ export default function AboutHero() {
             className="object-cover"
           />
 
-          {/* SMALL BOX (SOCIAL + CONTACT) */}
           <div className="border p-4 grid grid-cols-2 gap-8">
             
             <div>
@@ -39,7 +36,6 @@ export default function AboutHero() {
 
         </div>
 
-        {/* RIGHT SIDE BIG TEXT */}
         <div className="border p-6">
         <br></br>
           <p>About Me</p>

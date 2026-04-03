@@ -2,7 +2,6 @@ export default function Skills() {
   return (
     <section className="container-custom py-16 grid grid-cols-2 gap-10">
       
-      {/* Skills Container */}
       <div className="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
         <h3 className="font-semibold mb-4">Skills</h3>
 
@@ -17,7 +16,6 @@ export default function Skills() {
         </div>
       </div>
 
-      {/* Tools Container */}
       <div className="border rounded-lg p-6 shadow-sm hover:shadow-md transition">
         <h3 className="font-semibold mb-4">Tools</h3>
 

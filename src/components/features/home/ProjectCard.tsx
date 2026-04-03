@@ -11,7 +11,6 @@ export default function ProjectCard({ title, description, image }: Props) {
   return (
     <div className="text-center space-y-3">
       
-      {/* Image */}
       <Image
         src={image}
         alt={title}
@@ -20,13 +19,11 @@ export default function ProjectCard({ title, description, image }: Props) {
         className="rounded-md object-cover mx-auto"
       />
 
-      {/* Text */}
       <div>
         <p className="font-semibold">{title}</p>
         <p className="text-sm text-gray-500">{description}</p>
       </div>
 
-      {/* Button */}
       <Button size="sm">View</Button>
 
     </div>

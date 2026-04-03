@@ -6,7 +6,6 @@ export default function HomeHero() {
       
       <div className="relative flex items-center">
         
-        {/* IMAGE */}
         <Image
           src="/profile.jpg"
           alt="profile"
@@ -15,7 +14,6 @@ export default function HomeHero() {
           className="object-cover"
         />  
 
-        {/* TEXT BOX */}
         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[520px] border p-6 bg-white dark:bg-black shadow-md">
           <p>
             Hi, I'm Willian, a BSIT student passionate about building clean and

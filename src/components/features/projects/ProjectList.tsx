@@ -8,7 +8,6 @@ import { Input } from "@/components/ui/input"
 export default function ProjectList() {
   const [search, setSearch] = useState("")
 
-  // 🔍 FILTER LOGIC
   const filteredProjects = projects.filter((project) =>
     project.title.toLowerCase().includes(search.toLowerCase()) ||
     project.description.toLowerCase().includes(search.toLowerCase())
@@ -17,7 +16,6 @@ export default function ProjectList() {
   return (
     <section className="container-custom py-16">
       
-      {/* SEARCH */}
       <div className="mb-10">
   <Input
     placeholder="Search projects..."
@@ -27,7 +25,6 @@ export default function ProjectList() {
   />
 </div>
 
-      {/* RESULTS */}
       <div className="grid grid-cols-3 gap-10">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project) => (

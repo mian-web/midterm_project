@@ -11,13 +11,11 @@ export default function ThemeToggle() {
     setMounted(true)
   }, [])
 
-  // ⛔ prevent hydration mismatch
   if (!mounted) return null
 
   return (
     <div className="flex gap-2">
       
-      {/* Light */}
       <button
         onClick={() => setTheme("light")}
         className={`w-5 h-5 rounded-full border ${
@@ -25,7 +23,6 @@ export default function ThemeToggle() {
         } bg-white`}
       />
 
-      {/* Dark */}
       <button
         onClick={() => setTheme("dark")}
         className={`w-5 h-5 rounded-full border ${
